@@ -11,11 +11,11 @@ body{
 		font-size: 30px;
 		margin-bottom: 33px;
 		display: inline-block;
-		color: #ffffff;
+		color: #6c2424;
 		height: 65px;
 		width: 65px;
 		line-height: 65px;
-		background-color: #59b73f;
+		background-color: #fe0000;
 		text-align: center;
 		border-radius: 0.3rem;
 }
@@ -23,8 +23,8 @@ body{
 		display: inline-block;
 		font-size: 14px;
 		text-align: center;
-		color: #ffffff;
-		background: #59b73f;
+		color: #000000;
+		background: #ffffff;
 		height: 41px;
 		line-height: 41px;
 		width: 41px;
@@ -47,7 +47,7 @@ body{
 }
 
 a, a:active, a:focus {
-		color: #616161;
+		color: #ff000000;
 		text-decoration: none;
 		transition-timing-function: ease-in-out;
 		-ms-transition-timing-function: ease-in-out;
