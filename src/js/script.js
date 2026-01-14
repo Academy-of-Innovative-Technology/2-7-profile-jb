@@ -128,3 +128,35 @@ setTimeout(() => {
     bar.style.width = bar.getAttribute("value") + "%";
   });
 }, 300);
+
+const maincontent = document.querySelector("#main-content");
+if (maincontent) {
+  maincontent.innerHTML =
+  `<div class="mb-5 wow fadeIn">
+    
+  </div<div class="h1 mb-0 text-primary">#biography ${profile.bio.first}</div>
+    <p>${profile.bio.biography}</p>
+  </div>
+  <div class="mb-5 wow fadeIn">
+    <div class="text-start mb-1-6 wow fadeIn">
+      <h2 class="mb-0 text-primary">#Education</h2>
+    </div>
+    <div class="row mt-n4">
+      <div class="col-sm-6 col-x1-4 mt-4">
+        <div class="card text-body">
+          <i class="ti-bookmark-alt icon-box medium rounded-3 mb-4"></i>
+          <h3 class="h5 mb-3">${profile.edu.name}</h3>
+          <p class="mb-0">${profile.edu.major}</p>
+        </div>
+      </div>
+    </di>`;
+}
+
+const rightSocial = document.querySelector("#social-links-right");
+if (rightSocial) rightSocial.innerHTML = socialList.innerHTML;
+
+setTimeout(() => {
+  document.querySelectorAll(".progress-bar").forEach(bar => {
+    bar.style.width = bar.getAttribute("value") + "%";
+  });
+}, 350);
