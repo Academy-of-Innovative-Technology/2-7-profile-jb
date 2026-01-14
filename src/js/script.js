@@ -1,11 +1,11 @@
 
 
-var profile = {
+const profile = {
   bio: {
     first: "son",
     last: "goku",
     title: "dragon ball",
-    about: " i am son goku from plant earth. i like to fight strong people and eat a lot. mt best friend is krillin and i have a son named gohan. i love my family."
+    biography: " i am son goku from plant earth. i like to fight strong people and eat a lot. mt best friend is krillin and i have a son named gohan. i love my family."
   },
 
   image: "https://upload.wikimedia.org/wikipedia/en/0/01/Goku_character.png",
