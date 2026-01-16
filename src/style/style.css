@@ -1,4 +1,4 @@
-/* ===== GLOBAL STYLES ===== */
+
 * {
 	box-sizing: border-box;
 }
@@ -11,7 +11,7 @@ body {
 	font-size: 16px;
 }
 
-/* ===== CARD STYLING ===== */
+
 .card {
 	transition: all 0.4s ease;
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
@@ -24,7 +24,7 @@ body {
 	box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15) !important;
 }
 
-/* ===== PROFILE IMAGE ===== */
+
 #profile-img {
 	max-width: 100%;
 	height: auto;
@@ -33,7 +33,7 @@ body {
 	object-fit: contain;
 }
 
-/* ===== HEADINGS ===== */
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	letter-spacing: -0.5px;
@@ -53,7 +53,7 @@ h5 {
 	font-size: 1rem;
 }
 
-/* ===== CONTACT LIST ===== */
+
 .contact-list {
 	border-left: 3px solid;
 	padding-left: 15px;
@@ -72,7 +72,7 @@ h5 {
 	min-width: 25px;
 }
 
-/* ===== SOCIAL ICONS ===== */
+
 .social-icon-style2 {
 	display: flex;
 	flex-wrap: wrap;
@@ -111,7 +111,7 @@ h5 {
 	border-radius: 8px !important;
 }
 
-/* ===== LINKS ===== */
+
 a, a:active, a:focus {
 	color: inherit;
 	text-decoration: none;
@@ -122,7 +122,7 @@ a:hover {
 	opacity: 0.8;
 }
 
-/* ===== TEXT COLORS ===== */
+
 .text-primary, .text-primary-hover:hover {
 	color: #667eea !important;
 	font-weight: 600;
@@ -132,11 +132,13 @@ a:hover {
 	color: #667eea !important;
 }
 
-#about-heading, #edu-heading, #skills-heading, #skills-heading-right {
-	color: #667eea !important;
+#about-heading, #edu-heading, #skills-heading, #skills-heading-right  {
+	color: #29e414 !important;
 }
+ #career-heading {
+	color:#29e414 !important;
+ }
 
-/* ===== PARAGRAPH STYLES ===== */
 p {
 	margin: 0 0 1.2rem;
 	color: #555;
@@ -149,7 +151,6 @@ p.lead {
 	font-weight: 500;
 }
 
-/* ===== PROGRESS BAR ===== */
 .progress {
 	height: 10px;
 	border-radius: 10px;
@@ -175,7 +176,7 @@ p.lead {
 	align-items: center;
 }
 
-/* ===== SPACING ===== */
+
 .mb-1-6, .my-1-6 {
 	margin-bottom: 1.6rem;
 }
@@ -188,7 +189,7 @@ p.lead {
 	padding: 3rem;
 }
 
-/* ===== SECTIONS ===== */
+
 section {
 	animation: fadeInUp 0.6s ease;
 }
@@ -204,7 +205,7 @@ section {
 	}
 }
 
-/* ===== HORIZONTAL LINE ===== */
+
 hr {
 	border: none;
 	height: 1px;
@@ -212,7 +213,7 @@ hr {
 	margin: 2rem 0;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 768px) {
 	body {
 		margin-top: 15px;
