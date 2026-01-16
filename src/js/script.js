@@ -8,7 +8,7 @@ const profile = {
     biography: "Son Goku is the main protagonist of the Dragon Ball franchise. Born and raised in the peaceful Mount Paozu countryside, Goku has grown into Earth's strongest warrior. Known for his pure heart, unmatched martial arts skills, and unique techniques like the Kamehameha, he continually pushes past his limits to protect his loved ones and face increasingly powerful threats. His cheerful nature and love for fighting strong opponents make him an unforgettable character in the anime world."
   },
 
-  image: "https://upload.wikimedia.org/wikipedia/en/0/01/Goku_character.png",
+  image: "https://static.wikia.nocookie.net/dragonball/images/b/ba/Goku_anime_profile.png/revision/latest?cb=20250723190513",
   contact: {
     email: "justme_goku@mountpaozu.com",
     phone: "1-800-456-7890",
@@ -70,12 +70,7 @@ document.querySelector("#about-heading").innerText =
 
 document.querySelector("#about-text").innerText = profile.aboutText;
 
-// Right side content
-document.querySelector("#about-heading-right").innerText =
-  "#About " + profile.bio.first;
-document.querySelector("#about-text-right").innerText = profile.aboutText;
-
-document.querySelector("#edu-heading-right").innerText = "#Education & Background";
+document.querySelector("#edu-heading").innerText = "#Education & Background";
 document.querySelector("#edu-text").innerText =
   profile.edu.name + " — " + profile.edu.major + ". " + profile.edu.description;
 
@@ -83,8 +78,7 @@ document.querySelector("#career-text").innerText =
   profile.career.title + " at " + profile.career.company +
   " | " + profile.career.role;
 
-document.querySelector("#skills-heading-right").innerText = "#Skills & Experience";
-document.querySelector("#skills-text-right").innerText = profile.skillsText;
+document.querySelector("#skills-heading").innerText = "#Skills & Experience";
 
 // Set page colors
 document.body.style.backgroundColor = profile.colors.background;
@@ -111,7 +105,7 @@ profile.social.forEach(item => {
   );
 });
 
-// Populate skills section
+
 const skillsContainer = document.querySelector("#skills-container");
 skillsContainer.innerHTML = "";
 
@@ -138,7 +132,7 @@ profile.skills.forEach(skill => {
   );
 });
 
-// Populate right side skills section
+
 const skillsContainerRight = document.querySelector("#skills-container-right");
 if (skillsContainerRight) {
   skillsContainerRight.innerHTML = "";
@@ -166,7 +160,7 @@ if (skillsContainerRight) {
   });
 }
 
-// Animate progress bars on load
+
 setTimeout(() => {
   document.querySelectorAll(".progress-bar").forEach(bar => {
     const value = bar.getAttribute("aria-valuenow");
