@@ -74,6 +74,7 @@ document.querySelector("#edu-heading").innerText = "#Education & Background";
 document.querySelector("#edu-text").innerText =
   profile.edu.name + " — " + profile.edu.major + ". " + profile.edu.description;
 
+document.querySelector("#career-heading").innerText = "#Career";
 document.querySelector("#career-text").innerText =
   profile.career.title + " at " + profile.career.company +
   " | " + profile.career.role;
